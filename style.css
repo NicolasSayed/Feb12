@@ -34,6 +34,7 @@ div {
   padding: 20px;
   text-align: center;
   background: #3efd97;
+  width: auto;
 }
 
 .cell {
@@ -93,6 +94,17 @@ div {
   }
 }
 
-.background {
-  background-image: url(STATpng1.png);
+.full.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url("STATpng1.png");
+  background-size: cover;
+  background-position: center;
+  grid-column: span 3;
+}
+
+.full.background img {
+  object-fit: contain;
 }
