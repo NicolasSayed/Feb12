@@ -33,7 +33,7 @@ div {
   grid-column: span 3;
   padding: 20px;
   text-align: center;
-  background: #f4f4f4;
+  background: #3efd97;
 }
 
 .cell {
@@ -91,4 +91,8 @@ div {
   100% {
     color: purple;
   }
+}
+
+.background {
+  background-image: url(STATpng1.png);
 }
