@@ -6,6 +6,13 @@
   margin: 20px auto;
 }
 
+.container div {
+  overflow: hidden;
+}
+
+div {
+  outline: 1px solid #000;
+}
 .full {
   grid-column: span 3;
   padding: 20px;
@@ -22,15 +29,50 @@
 .spin {
   animation: spin 5s linear infinite;
 }
+.spinY {
+  animation: SpinY 1s linear infinite;
+}
 
-@keyframes rotate {
+@keyframes SpinY {
   100% {
-    transform: rotate(360deg);
+    transform: rotateY(90deg);
+  }
+  0% {
+    transform: rotateY(-90deg);
   }
 }
 
 @keyframes spin {
   100% {
-    transform: spin(360deg);
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.rainbow {
+  animation: rainbow 1s linear infinite;
+}
+@keyframes rainbow {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: purple;
   }
 }
