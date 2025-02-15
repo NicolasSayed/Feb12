@@ -4,50 +4,209 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./win98.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body style="background-image: url(pizzateto.jpg)">
-    <div class="container bac">
-      <div class="full title rainbow" style="overflow: hidden">
-        THIS WEBSITE SUCKSS
-        <div style="outline: none">
+  <body>
+    <!-- Header section -->
+    <header class="field-border-disabled">
+      <div class="header-section right-align">This may forever</div>
+
+      <div class="header-section" style="flex: 0 0 auto; margin: 0.5rem 1rem">
+        <img src="./images/stat2.jpg" alt="" class="header-image" />
+      </div>
+
+      <div class="header-section left-align">be header text!</div>
+    </header>
+    <!-- End -->
+    <!-- Main section -->
+    <main>
+      <!-- Left column -->
+      <div class="left">
+        <!-- Bio Window -->
+        <div class="window" style="max-width: 90%; overflow: hidden">
+          <div class="title-bar">
+            <div class="title-bar-text">Bio</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize" class="minimize"></button>
+              <button aria-label="Maximize" class="maximize"></button>
+              <button aria-label="Close" class="close"></button>
+            </div>
+          </div>
+          <div class="window-body">
+            <div style="display: flex">
+              <img src="./images/tomo.jpg" alt="" class="bio-image" />
+              <ul style="margin-top: 0">
+                <p>Name: Ofi</p>
+                <p>Age: 20</p>
+                <p>Sex: Male</p>
+              </ul>
+            </div>
+            <p>
+              This took me way too long to setup, mainly because I'm really
+              dumb.
+            </p>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- What the heck window -->
+        <div class="window" style="margin-top: 1rem">
+          <div class="title-bar">
+            <div class="title-bar-text">What the heck!</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize" class="minimize"></button>
+              <button aria-label="Maximize" class="maximize"></button>
+              <button aria-label="Close" class="close"></button>
+            </div>
+          </div>
+          <img src="./images/stat3.webp" alt="" class="what-the-heck" />
+        </div>
+        <!-- end -->
+      </div>
+      <!-- End -->
+      <!-- Middle column -->
+      <div class="middle">
+        <!-- Navigation Bar -->
+        <div class="window">
+          <div class="title-bar">
+            <div class="title-bar-text">Likes</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize" class="minimize"></button>
+              <button aria-label="Maximize" class="maximize"></button>
+              <button aria-label="Close" class="close"></button>
+            </div>
+          </div>
+          <div class="window-body">
+            <ul class="tree-view">
+              <li>This would be a nav bar if I had more content!</li>
+              <li>
+                Anime I like
+                <ul>
+                  <li>Zaregoto</li>
+                  <li>BTR</li>
+                  <li>Rumbling Hearts</li>
+                </ul>
+              </li>
+              <li>
+                <details open>
+                  <summary>Characters I like</summary>
+                  <ul>
+                    <li>Tomo</li>
+                    <li>
+                      <details>
+                        <summary>Everyone else</summary>
+                        <ul>
+                          <li>Adachi Rei</li>
+                          <li>STAT</li>
+                          <li>Neuro</li>
+                          <li>Ame</li>
+                        </ul>
+                      </details>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- Downloading files... -->
+        <div class="window" style="margin-top: 1rem">
+          <div class="title-bar">
+            <div class="title-bar-text">Downloading files...</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize" class="minimize"></button>
+              <button aria-label="Maximize" class="maximize"></button>
+              <button aria-label="Close" class="close"></button>
+            </div>
+          </div>
+          <div class="window-body">
+            <div class="progress-bar">
+              <div class="progress-bar-fill"></div>
+            </div>
+          </div>
+          <div class="downloadflex">
+            <img src="./images/stat3.webp" alt="" class="spinY downloading" />
+            <div class="ping"></div>
+            <img src="./images/stat3.webp" alt="" class="spinX downloading" />
+          </div>
+          <div class="window-body">These are all trojans by the way.</div>
+          <div class="progress-indicator segmented" style="margin: 1rem">
+            <span class="progress-indicator-bar download_bar"></span>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- Fun Image -->
+        <div class="window" style="margin-top: 1rem">
+          <div class="title-bar">
+            <div class="title-bar-text">What the flip!</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize" class="minimize"></button>
+              <button aria-label="Maximize" class="maximize"></button>
+              <button aria-label="Close" class="close"></button>
+            </div>
+          </div>
           <img
-            src="STATpng2.png"
+            src="./images/stat_keep_yourself_safe.png"
             alt=""
-            style="
-              background-color: tomato;
-              border-radius: 50%;
-              width: 80px;
-              border: 3px solid white;
-              margin-top: 15px;
-            "
+            class="what-the-heck"
           />
         </div>
+        <!-- End -->
+        <!-- Spacer -->
+        <div style="margin-top: 1rem"></div>
+        <!-- End -->
       </div>
-      <div class="full background">
-        <img src="stat1.jpg" class="spin" />
-      </div>
-
-      <div class="cell">
-        <img style="width: 100%" class="spinY" src="stat2.jpg" alt="" />
-      </div>
-      <div class="cell">
-        <img style="width: 100%" class="spinY" src="stat3.webp" alt="" />
-      </div>
-      <div class="cell">
-        <img style="width: 100%" class="spinY" src="stat2.jpg" alt="" />
-      </div>
-
-      <div class="full" style="padding: 0px">
-        <div class="double">
-          <div class="cell">
-            <img src="statgif.gif" alt="" />
+      <!-- End -->
+      <!-- Right column -->
+      <div class="right">
+        <!-- Furina Image -->
+        <div class="window" style="margin-top: 1rem; width: 100%">
+          <div class="title-bar">
+            <div class="title-bar-text">This is genshin if it was cool.</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize" class="minimize"></button>
+              <button aria-label="Maximize" class="maximize"></button>
+              <button aria-label="Close" class="close"></button>
+            </div>
           </div>
-          <div class="cell">
-            <img src="statgif.gif" alt="" />
-          </div>
+          <img src="./images/arlefuri.png" alt="" class="furina" />
         </div>
+        <!-- End -->
+        <!-- Funny Video -->
+        <div class="window" style="margin-top: 1rem; width: 100%">
+          <div class="title-bar">
+            <div class="title-bar-text">
+              I think this video is really funny lol.
+            </div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize" class="minimize"></button>
+              <button aria-label="Maximize" class="maximize"></button>
+              <button aria-label="Close" class="close"></button>
+            </div>
+          </div>
+          <video src="/images/ilovetomo.mp4" class="furina" controls></video>
+        </div>
+        <!-- End -->
       </div>
-    </div>
+      <!-- End -->
+    </main>
+    <!-- End -->
+
+    <!-- Footer section -->
+    <footer class="field-border-disabled">
+      <div class="taskbar">
+        <a class="start" href="https://youtu.be/b2NTglk9tvI?si=06jEg3neAUMpwDry"
+          >Maybe</a
+        >
+        <a class="task" href="https://www.youtube.com/watch?v=JeAs72hck0Y"
+          >Click</a
+        >
+        <a class="task" href="https://www.youtube.com/watch?v=ScSW9C3DF18"
+          >Me</a
+        >
+      </div>
+    </footer>
+    <!-- End -->
   </body>
 </html>
